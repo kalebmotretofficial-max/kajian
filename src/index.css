@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #1C2620;
+  --deep: #1F4038;
+  --deep-2: #163029;
+  --moss: #6E8F6B;
+  --sand: #EFE7D4;
+  --sand-2: #E4D9BE;
+  --gold: #B98B3E;
+  --gold-dark: #93701F;
+  --white: #FFFDF8;
+  --line: rgba(28, 38, 32, 0.16);
+  --danger: #9C3B3B;
+}
+
+body {
+  font-family: 'Karla', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: var(--sand);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+.font-spectral {
+  font-family: 'Spectral', Georgia, serif;
+}
+
+.font-karla {
+  font-family: 'Karla', sans-serif;
+}
+

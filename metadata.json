@@ -1,0 +1,6 @@
+{
+  "name": "Absensi Kajian",
+  "description": "Aplikasi absensi kehadiran kajian mingguan berbasis foto selfie dan GPS untuk perolehan KTA.",
+  "requestFramePermissions": ["camera", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
